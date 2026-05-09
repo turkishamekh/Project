@@ -1,0 +1,222 @@
+.header {
+background-color:rgb(249, 248, 247);
+padding:10px;
+text-align:center;
+}
+.nav_menu {
+overflow: hidden;
+background-color:rgb(208, 38, 38) ;
+}
+.nav_menu a {
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+display: block;
+color:rgb(168, 54, 54);
+font-weight: bold;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.nav_menu a:hover {
+background-color: (208, 38, 38);
+color: rgb(95, 19, 19);
+}
+.footer{
+background-color:rgb(249, 248, 247);
+padding: 15px;
+text-align:center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+/* Creates the horizontal line and space between shirts */
+.products-container {
+    display: flex;
+    justify-content: center; /* Centers the whole group */
+    gap: 50px;              /* The specific space between each shirt */
+    flex-wrap: wrap;        /* Moves shirts to a new line if screen is small */
+    padding: 40px;
+}
+
+/* Styles each individual shirt 'box' */
+.product-card {
+    text-align: center;     /* Centers the H3 and P text */
+    width: 200px;           /* Keeps everything aligned to the image width */
+}
+
+.product-card img {
+    width: 100%;            /* Forces image to fit the 200px box */
+    height: auto;
+    border-radius: 8px;     /* Optional: adds a soft corner to images */
+    margin-bottom: 10px;    /* Space between image and the name */
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product-card p {
+    color: #d02626;         /* Match your red theme */
+    font-weight: bold;
+}
+
+
+
+
+
+        * {
+            background-color: rgb(255, 249, 242);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: #1a1a1a;
+        }
+
+
+
+
+        /* ── HERO ── */
+        .about-us {
+            background-color: rgb(208, 38, 38) !important;
+            padding: 8px 4px 7px;
+            text-align: center;
+        }
+
+
+
+        .about-us h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(50px, 5vw, 110px);
+            color: rgb(255, 249, 242) !important;
+            background-color: transparent !important;
+            letter-spacing: 4px;
+            line-height: 1;
+        }
+
+        .about-us p {
+            margin-top: 16px;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: rgba(255, 249, 242, 0.7) !important;
+            background-color: transparent !important;
+        }
+
+
+
+
+
+         .products-us {
+            background-color: rgb(208, 38, 38) !important;
+            padding: 8px 4px 7px;
+            text-align: center;
+        }
+
+
+
+        .products-us h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(35px, 1vw, 110px);
+            color: rgb(255, 249, 242) !important;
+            background-color: transparent !important;
+            letter-spacing: 4px;
+            line-height: 1;
+        }
+
+        .products-us p {
+            margin-top: 16px;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: rgba(255, 249, 242, 0.7) !important;
+            background-color: transparent !important;
+        }
+
+
+
+
+         .about-contact {
+            background-color: rgb(208, 38, 38) !important;
+            padding: 8px 4px 7px;
+            text-align: center;
+        }
+
+        .about-contact h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(50px, 5vw, 110px);
+            color: rgb(255, 249, 242) !important;
+            background-color: transparent !important;
+            letter-spacing: 4px;
+            line-height: 1;
+        }
+
+       
+
+
+
+
+        /* ── DIVIDER ── */
+        .red-line {
+            height: 4px;
+            background-color: rgb(208, 38, 38) !important;
+            border: none;
+            margin: 0;
+        }
+        /* ── CONTENT WRAPPER ── */
+       .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 70px 30px 80px;
+        }
+
+
+
+
+    
+        
+.about-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 60px;
+            background-color: transparent !important;
+        }
+       
+
+        .section-body {
+            background-color: transparent !important;
+            padding-top: 6px;
+        }
+
+        .section-body h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 30px;
+            letter-spacing: 2px;
+            color: #1a1a1a;
+            background-color: transparent !important;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .section-body p {
+            font-size: 15.5px;
+            line-height: 1.75;
+            color: #444;
+            background-color: transparent !important;
+            max-width: 680px;
+        }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            background-color: rgb(255, 249, 242);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="Mystyle.css">
+    <script src="js/scriptpro.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo3.png" alt="Logo" style=" width:700px; height:200px;">
+        <div class="nav_menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="product.html" class="active">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="ContactUspro.html">Contact Us</a>
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        
+
+        <div class="about-contact">
+        <h1>Contact Us</h1>
+        </div>
+        <br>
+         <h1>If you have any questions, <br> please fill out the form below!</h1>
+        <br>
+
+        <form>
+            Name:
+            <br>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+
+           Last Name:
+            <br>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+
+            Email Address:
+            <br>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            What are you contacting us about?
+            <br>
+            <select id="subject" name="subject">
+                <option value="general">General Question</option>
+                <option value="order">Order Status</option>
+                <option value="return">Returns and Exchanges</option>
+            </select>
+            <br><br>
+
+            Message:
+            <br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea>
+            <br><br>
+
+            <input type="button" value="Submit Message" onclick="alert('Message Sent!')">
+        </form>
+        <br><br>
+    </div>
+    <hr>
+    <footer style="background-color: rgb(249, 248, 247); color: rgb(0, 0, 0); padding: 20px; text-align: center;">
+        <footer>
+<p>Student Names: Turki Alshamekh, Suhan
+Mohammed and Mostafa Sherif </p>
+<p>CIS201 - Fundamentals of Web Design</p>
+<p>© Alyamamah University 2026</p>
+</footer>
+<br>
+</body>
+
+</html>
