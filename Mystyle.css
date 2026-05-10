@@ -37,26 +37,26 @@ text-align:center;
 
 
 
-/* Creates the horizontal line and space between shirts */
+
 .products-container {
     display: flex;
-    justify-content: center; /* Centers the whole group */
-    gap: 50px;              /* The specific space between each shirt */
-    flex-wrap: wrap;        /* Moves shirts to a new line if screen is small */
+    justify-content: center; 
+    gap: 50px;              
+    flex-wrap: wrap;        
     padding: 40px;
 }
 
-/* Styles each individual shirt 'box' */
+
 .product-card {
-    text-align: center;     /* Centers the H3 and P text */
-    width: 200px;           /* Keeps everything aligned to the image width */
+    text-align: center;     /
+    width: 200px;           
 }
 
 .product-card img {
-    width: 100%;            /* Forces image to fit the 200px box */
+    width: 100%;           
     height: auto;
-    border-radius: 8px;     /* Optional: adds a soft corner to images */
-    margin-bottom: 10px;    /* Space between image and the name */
+    border-radius: 8px;    
+    margin-bottom: 10px;    
 }
 
 .product-card h3 {
@@ -65,7 +65,7 @@ text-align:center;
 }
 
 .product-card p {
-    color: #d02626;         /* Match your red theme */
+    color: #d02626;      
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ text-align:center;
 
 
 
-        /* ── HERO ── */
+     
         .about-us {
             background-color: rgb(208, 38, 38) !important;
             padding: 8px 4px 7px;
@@ -170,7 +170,7 @@ text-align:center;
 
 
 
-        /* ── DIVIDER ── */
+        
         .red-line {
             height: 4px;
             background-color: rgb(208, 38, 38) !important;
